@@ -4,8 +4,12 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - MoneyGenerator
   - UI
+  - EnemyUnit
+  - PlayerUnit
+  - PlayerBase
+  - EnemyBase
+  - Bank
   layers:
   - Default
   - TransparentFX
