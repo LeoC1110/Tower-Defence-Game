@@ -3,6 +3,8 @@ using System.Collections;
 
 public class EnemyAI : MonoBehaviour
 {
+    public static EnemyAI Instance { get; private set; }
+
     [Header("Spawn Settings")]
     [SerializeField] private Transform spawnPoint;
     [SerializeField] private Transform target;
@@ -13,6 +15,15 @@ public class EnemyAI : MonoBehaviour
 
     private float timeSinceLastWave = 0f;
     private int currentWave = 0;
+    private Coroutine waveRoutine;
+
+    private void Awake()
+    {
+        if (Instance == null)
+            Instance = this;
+        else
+            Destroy(gameObject);
+    }
 
     private void Start()
     {
@@ -22,7 +33,7 @@ public class EnemyAI : MonoBehaviour
             return;
         }
 
-        StartCoroutine(SpawnWaves());
+        waveRoutine = StartCoroutine(SpawnWaves());
     }
 
     // Coroutine to manage wave-based spawning
@@ -40,25 +51,25 @@ public class EnemyAI : MonoBehaviour
                 switch (currentWave)
                 {
                     case 1:
-                        yield return StartCoroutine(SpawnWave(2, 0, 10f)); // 2 AICharriots, 1 every 10 seconds
+                        yield return StartCoroutine(SpawnWave(2, 0, 10f));
                         break;
                     case 2:
-                        yield return StartCoroutine(SpawnWave(3, 0, 8f)); // 3 AICharriots, 1 every 8 seconds
+                        yield return StartCoroutine(SpawnWave(3, 0, 8f));
                         break;
                     case 3:
-                        yield return StartCoroutine(SpawnWave(2, 1, 8f)); // 2 AICharriots + 1 AICatapult, 1 every 8 seconds
+                        yield return StartCoroutine(SpawnWave(2, 1, 8f));
                         break;
                     case 4:
-                        yield return StartCoroutine(SpawnWave(3, 1, 6f)); // 3 AICharriots + 1 AICatapult, 1 every 6 seconds
+                        yield return StartCoroutine(SpawnWave(3, 1, 6f));
                         break;
                     case 5:
-                        yield return StartCoroutine(SpawnWave(4, 2, 5f)); // 4 AICharriots + 2 AICatapults, 1 every 5 seconds
+                        yield return StartCoroutine(SpawnWave(4, 2, 5f));
                         break;
                     case 6:
-                        yield return StartCoroutine(SpawnWave(5, 2, 4f)); // 5 AICharriots + 2 AICatapults, 1 every 4 seconds
+                        yield return StartCoroutine(SpawnWave(5, 2, 4f));
                         break;
                     default:
-                        yield return new WaitForSeconds(5f); // Wait 5 seconds after the last wave
+                        yield return new WaitForSeconds(5f);
                         break;
                 }
             }
@@ -75,14 +86,12 @@ public class EnemyAI : MonoBehaviour
 
         while (spawnedUnits < totalUnits)
         {
-            // Spawn AICharriot first, then AICatapult
             string tagToSpawn = spawnedUnits < charriotCount ? enemyTags[0] : enemyTags[1];
             SpawnEnemy(tagToSpawn);
             spawnedUnits++;
             yield return new WaitForSeconds(spawnInterval);
         }
 
-        // Wait 5 seconds after the wave ends
         yield return new WaitForSeconds(5f);
     }
 
@@ -92,7 +101,7 @@ public class EnemyAI : MonoBehaviour
         if (enemyTags.Length == 0) return;
 
         Vector3 spawnPos = spawnPoint.position;
-        spawnPos.y = 1.5f; // Ensure Y position is 1.5
+        spawnPos.y = 1.5f;
 
         GameObject enemy = ObjectPoolManager.Instance.SpawnFromPool(tagToSpawn, spawnPos, Quaternion.identity);
 
@@ -104,7 +113,6 @@ public class EnemyAI : MonoBehaviour
 
         enemy.tag = "EnemyUnit";
 
-        // Face the target
         Vector3 direction = (target.position - enemy.transform.position).normalized;
         direction.y = 0;
         if (direction != Vector3.zero)
@@ -122,5 +130,28 @@ public class EnemyAI : MonoBehaviour
         }
 
         Debug.Log($"[EnemyAI] Spawned {tagToSpawn} at {Time.time}");
+    }
+
+    public void StopSpawning()
+    {
+        if (waveRoutine != null)
+        {
+            StopCoroutine(waveRoutine);
+            waveRoutine = null;
+            Debug.Log("[EnemyAI] Spawning stopped.");
+        }
+    }
+
+    public void ClearAllEnemies()
+    {
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("EnemyUnit");
+        foreach (var enemy in enemies)
+        {
+            if (enemy.TryGetComponent<PooledObject>(out var pooled))
+                pooled.ReturnToPool();
+            else
+                Destroy(enemy);
+        }
+        Debug.Log("[EnemyAI] All enemies cleared.");
     }
 }

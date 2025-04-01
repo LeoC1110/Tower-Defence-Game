@@ -61,4 +61,18 @@ public class ObjectPoolManager : MonoBehaviour
 
         return objectToSpawn;
     }
+
+    // Optional: Clear all pools
+    public void ClearAllPools()
+    {
+        foreach (var pool in poolDictionary.Values)
+        {
+            foreach (var obj in pool)
+            {
+                Destroy(obj);
+            }
+        }
+        poolDictionary.Clear();
+    }
+
 }
