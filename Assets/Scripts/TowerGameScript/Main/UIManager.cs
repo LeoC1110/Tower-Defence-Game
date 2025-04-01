@@ -12,6 +12,8 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Text goldText;
     [SerializeField] private Text timeText;
     [SerializeField] private Text messageText;
+    
+
 
     private void Awake()
     {

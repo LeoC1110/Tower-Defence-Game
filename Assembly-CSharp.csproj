@@ -74,11 +74,13 @@
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\DisableInPlayModeAttribute.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Scripts\TowerGameScript\Unit\ObjectPoolManager.cs" />
+    <Compile Include="Assets\Scripts\TowerGameScript\Setting\SettingSceneController.cs" />
     <Compile Include="Assets\Scripts\TowerGameScript\Unit\UnitSpawner.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\HideLabelAttribute.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\RequiredAttribute.cs" />
     <Compile Include="Assets\Scripts\TowerGameScript\Unit\UnitType.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\GroupAttribute.cs" />
+    <Compile Include="Assets\Scripts\TowerGameScript\Setting\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\TowerGameScript\GroundMaker\GroundTiler.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Enum.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
@@ -103,8 +105,10 @@
     <Compile Include="Assets\Scripts\TowerGameScript\Unit\UnitFactoryProvider.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+    <Compile Include="Assets\Scripts\TowerGameScript\Setting\SettingButton.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\TitleHeaderAttribute.cs" />
     <Compile Include="Assets\Cainos\Common\Script\Utils\SecondOrderDynamics.cs" />
+    <Compile Include="Assets\Scripts\TowerGameScript\Main\AudioManager.cs" />
     <Compile Include="Assets\Scripts\TowerGameScript\Camera\CameraController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
@@ -123,11 +127,14 @@
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\ShowIfAttribute.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\Scripts\TowerGameScript\Save\SaveSystem.cs" />
     <Compile Include="Assets\MainMenu.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\IndentAttribute.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\ButtonAttribute.cs" />
     <Compile Include="Assets\Cainos\Pixel Art Platformer - Village Props\Script\Chest.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\GUIColorAttribute.cs" />
+    <Compile Include="Assets\Scripts\TowerGameScript\Save\SaveSlotUI.cs" />
+    <Compile Include="Assets\Scripts\TowerGameScript\Save\LoadManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\Scripts\TowerGameScript\Unit\BaseUnit.cs" />
@@ -138,6 +145,7 @@
     <Compile Include="Assets\Scripts\TowerGameScript\Main\SceneLoader.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\PropertyGroupAttribute.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\HorizontalGroupAttribute.cs" />
+    <Compile Include="Assets\Scripts\TowerGameScript\Save\SaveButtonController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\AurynSky\Forest Pack\Scripts\MaterialMover.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
@@ -146,6 +154,7 @@
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\HideMonoScript.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\TabGroupAttribute.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\Scripts\TowerGameScript\Save\SaveData.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\DisableInEditModeAttribute.cs" />
     <Compile Include="Assets\Scripts\TowerGameScript\Main\UIManager.cs" />
     <Compile Include="Assets\Cainos\Third Party\Lucid Editor\Runtime\Attributes\ValidateInputAttribute.cs" />

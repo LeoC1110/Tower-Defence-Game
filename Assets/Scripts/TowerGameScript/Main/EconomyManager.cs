@@ -72,5 +72,13 @@ public class EconomyManager : MonoBehaviour
         }
         return false;
     }
+
+    // Load gold from save data (SaveLoadManager)
+    public void LoadGold(int value)
+    {
+        playerGold = value;
+        UIManager.Instance?.UpdateGoldUI();
+    }
+
 }
 

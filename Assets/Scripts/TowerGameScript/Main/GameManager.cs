@@ -148,4 +148,13 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(delay);
         UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
     }
+
+    // Find all objects of the specified type in the scene (SaveLoadManager)
+    public void LoadState(int newPlayerHP, int newEnemyHP, float newTime)
+    {
+        
+        gameTime = newTime;
+        UIManager.Instance?.UpdateHPUI();
+    }
+
 }

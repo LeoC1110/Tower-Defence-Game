@@ -1,5 +1,53 @@
-Library/
-Build/
+# ========== Unity ==========
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+UserSettings/
+MemoryCaptures/
+Assets/AssetStoreTools*
+
+# Crash reports
+sysinfo.txt
+
+# Unity3D generated file on crash reports
+*.stacktrace
+
+# Auto-generated JetBrains Rider plugin
+.idea/
+*.sln
+*.csproj
+*.unityproj
+*.tmproj
+*.user
+*.pidb
+*.booproj
+*.svd
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Rider
+*.sln.iml
+
+# ========== Unity Package Manager ==========
 Packages/packages-lock.json
 PackageCache/
-Bee/
+
+# ========== Other ==========
+[Bb]uilds/
+*.apk
+*.aab
+*.unitypackage
+
+# Logs
+*.log
+
+# ========== Git meta ==========
+.gitignore
