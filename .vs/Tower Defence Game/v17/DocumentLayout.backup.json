@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\24161\\OneDrive\\Desktop\\UnityGame\\Tower Defence Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D6C10435-0452-D7E6-BE2F-B9CE7DC83E2F}|Assembly-CSharp.csproj|c:\\users\\24161\\onedrive\\desktop\\unitygame\\tower defence game\\assets\\scripts\\towergamescript\\main\\quitbuttonhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D6C10435-0452-D7E6-BE2F-B9CE7DC83E2F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\towergamescript\\main\\quitbuttonhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D6C10435-0452-D7E6-BE2F-B9CE7DC83E2F}|Assembly-CSharp.csproj|c:\\users\\24161\\onedrive\\desktop\\unitygame\\tower defence game\\assets\\scripts\\towergamescript\\achievement\\achievement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6C10435-0452-D7E6-BE2F-B9CE7DC83E2F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\towergamescript\\achievement\\achievement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\24161\\OneDrive\\Desktop\\UnityGame\\Tower Defence Game\\Assets\\Scripts\\TowerGameScript\\Main\\QuitButtonHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\TowerGameScript\\Main\\QuitButtonHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D6C10435-0452-D7E6-BE2F-B9CE7DC83E2F}|Assembly-CSharp.csproj|C:\\Users\\24161\\OneDrive\\Desktop\\UnityGame\\Tower Defence Game\\assets\\scripts\\towergamescript\\main\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -119,19 +123,30 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Achievement.cs",
+              "DocumentMoniker": "C:\\Users\\24161\\OneDrive\\Desktop\\UnityGame\\Tower Defence Game\\Assets\\Scripts\\TowerGameScript\\Achievement\\Achievement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TowerGameScript\\Achievement\\Achievement.cs",
+              "ToolTip": "C:\\Users\\24161\\OneDrive\\Desktop\\UnityGame\\Tower Defence Game\\Assets\\Scripts\\TowerGameScript\\Achievement\\Achievement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TowerGameScript\\Achievement\\Achievement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T23:24:11.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "QuitButtonHandler.cs",
               "DocumentMoniker": "C:\\Users\\24161\\OneDrive\\Desktop\\UnityGame\\Tower Defence Game\\Assets\\Scripts\\TowerGameScript\\Main\\QuitButtonHandler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TowerGameScript\\Main\\QuitButtonHandler.cs",
               "ToolTip": "C:\\Users\\24161\\OneDrive\\Desktop\\UnityGame\\Tower Defence Game\\Assets\\Scripts\\TowerGameScript\\Main\\QuitButtonHandler.cs",
               "RelativeToolTip": "Assets\\Scripts\\TowerGameScript\\Main\\QuitButtonHandler.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwA8AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T18:22:16.107Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T18:22:16.107Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "SaveData.cs",
               "DocumentMoniker": "C:\\Users\\24161\\OneDrive\\Desktop\\UnityGame\\Tower Defence Game\\Assets\\Scripts\\TowerGameScript\\Save\\SaveData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TowerGameScript\\Save\\SaveData.cs",
@@ -143,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "SettingButton.cs",
               "DocumentMoniker": "C:\\Users\\24161\\OneDrive\\Desktop\\UnityGame\\Tower Defence Game\\Assets\\Scripts\\TowerGameScript\\Setting\\SettingButton.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TowerGameScript\\Setting\\SettingButton.cs",
@@ -155,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "PauseMenu.cs",
               "DocumentMoniker": "C:\\Users\\24161\\OneDrive\\Desktop\\UnityGame\\Tower Defence Game\\Assets\\Scripts\\TowerGameScript\\Setting\\PauseMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TowerGameScript\\Setting\\PauseMenu.cs",
@@ -167,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "SceneLoader.cs",
               "DocumentMoniker": "C:\\Users\\24161\\OneDrive\\Desktop\\UnityGame\\Tower Defence Game\\Assets\\Scripts\\TowerGameScript\\Main\\SceneLoader.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TowerGameScript\\Main\\SceneLoader.cs",
@@ -179,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ObjectPoolManager.cs",
               "DocumentMoniker": "C:\\Users\\24161\\OneDrive\\Desktop\\UnityGame\\Tower Defence Game\\Assets\\Scripts\\TowerGameScript\\Unit\\ObjectPoolManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TowerGameScript\\Unit\\ObjectPoolManager.cs",
@@ -191,7 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "EnemyAI.cs",
               "DocumentMoniker": "C:\\Users\\24161\\OneDrive\\Desktop\\UnityGame\\Tower Defence Game\\Assets\\Scripts\\TowerGameScript\\EnemyAI\\EnemyAI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TowerGameScript\\EnemyAI\\EnemyAI.cs",
@@ -203,20 +218,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\24161\\OneDrive\\Desktop\\UnityGame\\Tower Defence Game\\Assets\\Scripts\\TowerGameScript\\Main\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TowerGameScript\\Main\\GameManager.cs",
               "ToolTip": "C:\\Users\\24161\\OneDrive\\Desktop\\UnityGame\\Tower Defence Game\\Assets\\Scripts\\TowerGameScript\\Main\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\TowerGameScript\\Main\\GameManager.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAkwEMAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T18:52:41.438Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T18:52:41.438Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "SaveSystem.cs",
               "DocumentMoniker": "C:\\Users\\24161\\OneDrive\\Desktop\\UnityGame\\Tower Defence Game\\Assets\\Scripts\\TowerGameScript\\Save\\SaveSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TowerGameScript\\Save\\SaveSystem.cs",
@@ -228,7 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "AudioManager.cs",
               "DocumentMoniker": "C:\\Users\\24161\\OneDrive\\Desktop\\UnityGame\\Tower Defence Game\\Assets\\Scripts\\TowerGameScript\\Main\\AudioManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TowerGameScript\\Main\\AudioManager.cs",
@@ -240,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "CameraController.cs",
               "DocumentMoniker": "C:\\Users\\24161\\OneDrive\\Desktop\\UnityGame\\Tower Defence Game\\Assets\\Scripts\\TowerGameScript\\Camera\\CameraController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TowerGameScript\\Camera\\CameraController.cs",
@@ -252,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "SettingSceneController.cs",
               "DocumentMoniker": "C:\\Users\\24161\\OneDrive\\Desktop\\UnityGame\\Tower Defence Game\\Assets\\Scripts\\TowerGameScript\\Setting\\SettingSceneController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TowerGameScript\\Setting\\SettingSceneController.cs",
@@ -264,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "SaveUI.cs",
               "DocumentMoniker": "C:\\Users\\24161\\OneDrive\\Desktop\\UnityGame\\Tower Defence Game\\Assets\\Scripts\\TowerGameScript\\Save\\SaveUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TowerGameScript\\Save\\SaveUI.cs",
@@ -276,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "SaveSlotUI.cs",
               "DocumentMoniker": "C:\\Users\\24161\\OneDrive\\Desktop\\UnityGame\\Tower Defence Game\\Assets\\Scripts\\TowerGameScript\\Save\\SaveSlotUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TowerGameScript\\Save\\SaveSlotUI.cs",
@@ -288,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "LoadManager.cs",
               "DocumentMoniker": "C:\\Users\\24161\\OneDrive\\Desktop\\UnityGame\\Tower Defence Game\\Assets\\Scripts\\TowerGameScript\\Save\\LoadManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TowerGameScript\\Save\\LoadManager.cs",
@@ -300,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "SaveButtonController.cs",
               "DocumentMoniker": "C:\\Users\\24161\\OneDrive\\Desktop\\UnityGame\\Tower Defence Game\\Assets\\Scripts\\TowerGameScript\\Save\\SaveButtonController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TowerGameScript\\Save\\SaveButtonController.cs",
@@ -312,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "EconomyManager.cs",
               "DocumentMoniker": "C:\\Users\\24161\\OneDrive\\Desktop\\UnityGame\\Tower Defence Game\\Assets\\Scripts\\TowerGameScript\\Main\\EconomyManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TowerGameScript\\Main\\EconomyManager.cs",
@@ -324,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "GameData.cs",
               "DocumentMoniker": "C:\\Users\\24161\\OneDrive\\Desktop\\UnityGame\\Tower Defence Game\\Assets\\Scripts\\TowerGameScript\\Save\\GameData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TowerGameScript\\Save\\GameData.cs",
@@ -336,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "SaveLoadManager.cs",
               "DocumentMoniker": "C:\\Users\\24161\\OneDrive\\Desktop\\UnityGame\\Tower Defence Game\\Assets\\Scripts\\TowerGameScript\\Save\\SaveLoadManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TowerGameScript\\Save\\SaveLoadManager.cs",
@@ -348,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "UIBehaviour.cs",
               "DocumentMoniker": "C:\\Users\\24161\\OneDrive\\Desktop\\UnityGame\\Tower Defence Game\\Library\\PackageCache\\com.unity.ugui@03407c6d8751\\Runtime\\UGUI\\EventSystem\\UIBehaviour.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@03407c6d8751\\Runtime\\UGUI\\EventSystem\\UIBehaviour.cs",
@@ -360,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "UIManager.cs",
               "DocumentMoniker": "C:\\Users\\24161\\OneDrive\\Desktop\\UnityGame\\Tower Defence Game\\Assets\\Scripts\\TowerGameScript\\Main\\UIManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TowerGameScript\\Main\\UIManager.cs",
@@ -372,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "UnitSpawner.cs",
               "DocumentMoniker": "C:\\Users\\24161\\OneDrive\\Desktop\\UnityGame\\Tower Defence Game\\Assets\\Scripts\\TowerGameScript\\Unit\\UnitSpawner.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TowerGameScript\\Unit\\UnitSpawner.cs",
@@ -384,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "UnitFactoryProvider.cs",
               "DocumentMoniker": "C:\\Users\\24161\\OneDrive\\Desktop\\UnityGame\\Tower Defence Game\\Assets\\Scripts\\TowerGameScript\\Unit\\UnitFactoryProvider.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TowerGameScript\\Unit\\UnitFactoryProvider.cs",
@@ -396,7 +410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "BaseUnit.cs",
               "DocumentMoniker": "C:\\Users\\24161\\OneDrive\\Desktop\\UnityGame\\Tower Defence Game\\Assets\\Scripts\\TowerGameScript\\Unit\\BaseUnit.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TowerGameScript\\Unit\\BaseUnit.cs",
@@ -408,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "UIButtonTooltip.cs",
               "DocumentMoniker": "C:\\Users\\24161\\OneDrive\\Desktop\\UnityGame\\Tower Defence Game\\Assets\\Scripts\\TowerGameScript\\UI\\UIButtonTooltip.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TowerGameScript\\UI\\UIButtonTooltip.cs",
@@ -420,7 +434,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "UnitType.cs",
               "DocumentMoniker": "C:\\Users\\24161\\OneDrive\\Desktop\\UnityGame\\Tower Defence Game\\Assets\\Scripts\\TowerGameScript\\Unit\\UnitType.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TowerGameScript\\Unit\\UnitType.cs",

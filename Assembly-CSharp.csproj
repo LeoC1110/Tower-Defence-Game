@@ -110,6 +110,7 @@
     <Compile Include="Assets\Cainos\Common\Script\Utils\SecondOrderDynamics.cs" />
     <Compile Include="Assets\Scripts\TowerGameScript\Main\AudioManager.cs" />
     <Compile Include="Assets\Scripts\TowerGameScript\Camera\CameraController.cs" />
+    <Compile Include="Assets\Scripts\TowerGameScript\Achievement\Achievement.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
